@@ -12,7 +12,7 @@
  
  Send flow is write your header, then write the message, and send.
  
- Receiving messages inside OnReceive call buffer.HasMessage in a loop and make sure to call buffer.Consume which advances the internal pointer
+ OnReceive is called every time data is received. Call buffer.HasMessage while it's true. And make sure to call buffer.Consume which advances the internal pointer
  
  ```
  while (buffer.HasMessage(out GraniteMessageType messageType, out int messageLength))
