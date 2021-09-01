@@ -8,7 +8,7 @@
  Create a class that inherits from SocketConnectionHandler.  Create a logging class that implements IGraniteLogger.  
  Instantiate the server with your connection handler.
  
- OnConnected handes you a SocketConnection.  You send messages from inside your connection handler using connection.Send.
+ OnConnected hands you a SocketConnection.  You send messages from inside your connection handler using connection.Send.
  
  Send flow is write your header, then write the message, and send.
  
