@@ -1,7 +1,7 @@
 # Granite
  .Net TCP server
  
- Minimal modern TCP server that uses length prefixed messages.  Zero per message object creation.
+ Minimal modern TCP server using SocketAsyncEventArgs and length prefixed messages. Tries to not get in your way and provide a minimal base to work from. 
  
  I didn't want to add more unnecessary abstractions so GraniteMessageType you will need to customize for your own message types.
  
